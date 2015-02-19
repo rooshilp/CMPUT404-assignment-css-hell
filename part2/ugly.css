@@ -1,0 +1,94 @@
+html {
+	background: #FFFFFF;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+body, html {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+#wrap {
+	width: 75%;
+	margin: 0 auto;
+}
+
+#headerimg {
+	background-image: url("img/header-x-wood-center.jpg");
+	background size: 100%;
+}
+
+#header {
+	text-align: center;
+	height: 200px;
+	line-height: 200px;
+	background: -moz-linear-gradient(top, rgba(181,221,235,1) 0%, rgba(113,206,239,1) 0%, rgba(37,58,217,1) 100%);
+}
+
+#nav {
+	margin-top: -100px;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+    background: -moz-linear-gradient(top, rgba(117,137,12,1) 0%, rgba(117,137,12,1) 31%, rgba(164,179,87,1) 100%);
+}
+
+#nav ul {
+	margin: 0;
+	list-style: none;
+}
+
+.nav_list {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+#main {
+	margin-top: 1%;
+	float: left;
+	width: 75%;
+    background:#9c9;
+}
+
+#sidebar {
+	margin-top: 1%;
+	float: right;
+	width: 25%;
+    background:#99c;
+}
+
+img {
+	max-width: 300px;
+	margin-left: 1em;
+	margin-top: 1em;
+}
+
+h1 {
+	font-size: 50;
+	color: #FFFFFF;
+}
+
+h2 {
+	margin-left: .75em;
+}
+
+p {
+	margin-left: 2em;
+}
+
+a:link {
+	color: #0000FF;
+}
+
+a:visited {
+	color: #551a8b;
+}
+
+a:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
