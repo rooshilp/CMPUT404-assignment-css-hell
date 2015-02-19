@@ -25,4 +25,23 @@ Part 1 Changes to HTML
 ======================
 
 Changes made to the HTML of the Gutenberg stories used:
--Removal of existing embedded CSS code
+- Removal of existing embedded CSS code
+
+Changes made to the style of the Gutenberg stories:
+- centralized CSS to style.css file
+- fixed background image of old_paper.jpg applied to all stories
+- body content justify aligned
+- paragraph content is displayed using font family Georgia
+- paragraph content has a overall 15% margin applied
+- first line of all paragraph content is indented 1em
+- margin for the top and bottom of paragraph content is overrided to .5em
+- header content is center aligned
+- header content is displayed using font family Lucida Bright
+- preformatted content is italicized
+- preformatted content has font sized reduced to 90%
+- preformetted content has it's margin shifted 10% in from the left
+- links on pages are set to be blue when not hovered or clicked, red when hovered and purple when clicked
+- links are also set to be underlined when hovered
+- div class fig content, which hold images, are center aligned
+- images within div.fig content are allowed to be a max of 700px in height and width
+- tables with class bold are set to have their contents bold
